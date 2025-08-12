@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url("https://thumbs.dreamstime.com/b/ancient-hindu-temple-intricately-carved-statues-featuring-intricate-stone-carvings-decorated-sculptures-deities-362013674.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.card{
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:40px;
+    border-top-right-radius: 40px;
+}
+.heading{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+}
+.para{
+    color: navy;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.btn{
+    width: 140px;
+    height: 60px;
+    border: none;
+    font-family: sans-serif;
+    background-color:black;
+    color: aliceblue;
+    border-radius:60px;
+    text-align: center;
+}

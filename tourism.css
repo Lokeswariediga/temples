@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url("https://img.freepik.com/premium-photo/blurred-indian-temple-interior-with-no-people-classical-interior-light-colors-background-wallpaper_935074-28827.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+.places {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+}
+
+.card {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.place {
+    color: black;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+.bttn{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    padding: 5px 15px;  
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        grid-template-columns:1fr;
+}
+}
+     
